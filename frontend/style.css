@@ -62,11 +62,15 @@ body button {
   body {
     max-width: 100vw;
   }
+  #root {
+    max-width: 100%;
+  }
   #root h1 {
     font-size: 24px;
   }
-  #root input {
+  #root .input {
     max-width: 100%;
     height: 40px;
+    padding: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
